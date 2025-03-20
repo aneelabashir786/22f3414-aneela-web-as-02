@@ -11,19 +11,19 @@
 </head>
 <body class="ls-body">
     <div class="ls-container ls-container--login">
-        <form class="ls-form" id="loginForm">  <!-- ADDED ID HERE -->
+        <form class="ls-form" id="loginForm">  
             <h2 class="ls-h2 ls-h2--login">Login</h2>
             
             <div class="ls-input-group">
                 <label class="ls-label" for="email">Email</label>
                 <input class="ls-input" type="email" id="email" placeholder="Enter your email" required>
-                <span class="error" id="emailError"></span>  <!-- ERROR DISPLAY ADDED -->
+                <span class="error" id="emailError"></span>  
             </div>
 
             <div class="ls-input-group">
                 <label class="ls-label" for="password">Password</label>
                 <input class="ls-input" type="password" id="password" placeholder="Enter your password" required>
-                <span class="error" id="passwordError"></span>  <!-- ERROR DISPLAY ADDED -->
+                <span class="error" id="passwordError"></span>  
             </div>
 
             <div class="ls-forgot-password">
@@ -37,7 +37,7 @@
 
     <script>
         document.getElementById("loginForm").addEventListener("submit", function(event) {
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault(); 
 
             let email = document.getElementById("email").value;
             let password = document.getElementById("password").value;
