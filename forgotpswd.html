@@ -56,7 +56,7 @@
       font-size: 16px;
     }
     button:hover {
-      background-color: #0b1622; /* Darker color on hover */
+      background-color: #0b1622; 
     }
     .back-link {
       margin-top: 15px;
@@ -76,7 +76,7 @@
     <form id="forgotPasswordForm">
       <label for="email">Enter your email:</label>
       <input type="email" id="email" name="email" placeholder="Enter your Email" required/>
-      <span class="error" id="emailError"></span> <!-- Error message -->
+      <span class="error" id="emailError"></span> 
       <button type="submit">Send Reset Link</button>
     </form>
     <a class="back-link" href="login.html">Back to Login</a>
@@ -84,21 +84,21 @@
 
   <script>
     document.getElementById("forgotPasswordForm").addEventListener("submit", function(event) {
-      event.preventDefault(); // Prevent form submission
+      event.preventDefault(); 
 
       let email = document.getElementById("email").value.trim();
       let emailError = document.getElementById("emailError");
 
-      // Email regex pattern (standard format)
+      
       let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-      // Validate Email
+      
       if (!emailRegex.test(email)) {
         emailError.innerText = "Invalid email format!";
       } else {
         emailError.innerText = "";
         alert("Password reset link sent to " + email);
-        // this.submit(); // Uncomment this to actually submit the form
+        
       }
     });
   </script>
