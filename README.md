@@ -36,6 +36,7 @@ Simply open the `index.html` file in any modern web browser to view the bookstor
 - Add books to the cart and proceed to checkout.
 
 ## live Demo
+   [View Live on GitHub Pages](https://aneelabashir786.github.io/22f3414-aneela-web-as-02/)
 
 ##  Future Enhancements
 We plan to enhance the project by adding:
