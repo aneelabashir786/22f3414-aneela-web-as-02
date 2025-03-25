@@ -4,7 +4,7 @@
 ##  Overview
 This project is an online bookstore website that allows users to browse, search, and purchase books online. Built using HTML and CSS, the website provides a user-friendly interface and seamless shopping experience.
 
-### ✅ Features
+###  Features
 -  **Browse Books** – Explore a wide collection of books across various genres.
 -  **Search Functionality** – Quickly find books by title, author, or category.
 -  **Shopping Cart** – Add books to your cart and manage your purchases.
@@ -16,14 +16,15 @@ This project is an online bookstore website that allows users to browse, search,
 This online bookstore is built using:
 - **HTML** – For structuring the website.
 - **CSS** – For styling and enhancing the visual experience.
+- **SASS** - For efficient managment of styling.
 
 ##  How to Use
 
 ### 1 Clone This Repository
 To set up the project locally, open a terminal and run:
 ```sh
-$ git clone https://github.com/your-username/online-bookstore.git
-$ cd online-bookstore
+$ git clone https://github.com/aneelabashir786/22f3414-aneela-web-as-02
+$ cd 22f3414-aneela-web-as-02
 ```
 
 ### 2 Open the Website
@@ -43,16 +44,7 @@ We plan to enhance the project by adding:
 
 ##  Requirements
 - A modern web browser (Google Chrome, Firefox, Edge, etc.)
-- Basic knowledge of HTML & CSS (for customization)
-
-##  Why Use This Project?
-✔ **Easy to Use** – Simple and intuitive user experience.
-✔ **No Setup Required** – Just open the files in a browser.
-✔ **Scalable** – Future-proof with planned features.
-✔ **Customizable** – Modify the design and features easily.
-
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
+- Basic knowledge of HTML ,  SASS& CSS (for customization)
 
 ##  License
 This project is licensed under the MIT License.
