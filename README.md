@@ -35,6 +35,8 @@ Simply open the `index.html` file in any modern web browser to view the bookstor
 - Search for specific books using the search bar.
 - Add books to the cart and proceed to checkout.
 
+## live Demo
+
 ##  Future Enhancements
 We plan to enhance the project by adding:
 -  **User Authentication** – Sign up, log in, and manage personal libraries.
